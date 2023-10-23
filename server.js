@@ -1,8 +1,14 @@
 const express = require('express');
 const app = express();
-const port = 3000; // You can change the port as needed
+const port = process.env.PORT || 3000; // Allow the platform to set the port if necessary
 const quotes = require('./quotes.json'); // Import your quotes
 
+// Root path ("/") for a welcome message
+app.get('/', (req, res) => {
+    res.send('Welcome to the Grey\'s Wisdom API');
+});
+
+// API path ("/greys-wisdom-api") to get a random quote
 app.get('/greys-wisdom-api', (req, res) => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     res.json({ quote: quotes[randomIndex].quote });
