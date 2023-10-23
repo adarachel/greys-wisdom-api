@@ -1,0 +1,16 @@
+{
+  "name": "greys-wisdom-api",
+  "version": "1.0.0",
+  "description": "My custom API that provides a collection of quotes from the television show \"Grey's Anatomy\". It allows developers to retrieve random quotes from the show by making HTTP requests to specific endpoints.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
