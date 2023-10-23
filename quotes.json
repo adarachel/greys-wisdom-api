@@ -18,5 +18,25 @@
         "quote": "It's a beautiful day to save lives.",
         "person": "Richard Webber",
         "episode": "Season 5, Episode 1"
+    },
+    {
+        "quote": "With these modifications",
+        "person": "Derek Shepherd",
+        "episode": "Season 6, Episode 1"
+    },
+    {
+        "quote": "Good to see you",
+        "person": "Meredith Grey",
+        "episode": "Season 7, Episode 1"
+    },
+    {
+        "quote": "Only girl in the world",
+        "person": "Alex Karev",
+        "episode": "Season 8, Episode 1"
+    },
+    {
+        "quote": "Whats my name?",
+        "person": "Richard Webber",
+        "episode": "Season 2, Episode 1"
     }
 ]
