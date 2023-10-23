@@ -1,14 +1,22 @@
 [
     {
-        "quote": "Your ego's impressive. Have you considered stuffing it?"
+        "quote": "Your ego's impressive. Have you considered stuffing it?",
+        "person": "Derek Shepherd",
+        "episode": "Season 1, Episode 1"
     },
     {
-        "quote": "The only way to fail is not to fight."
+        "quote": "The only way to fail is not to fight.",
+        "person": "Meredith Grey",
+        "episode": "Season 3, Episode 1"
     },
     {
-        "quote": "I don't need to be your first, but I do want to be your last."
+        "quote": "I don't need to be your first, but I do want to be your last.",
+        "person": "Alex Karev",
+        "episode": "Season 4, Episode 1"
     },
     {
-        "quote": "It's a beautiful day to save lives."
+        "quote": "It's a beautiful day to save lives.",
+        "person": "Richard Webber",
+        "episode": "Season 5, Episode 1"
     }
 ]
