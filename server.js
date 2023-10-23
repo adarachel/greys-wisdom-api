@@ -19,3 +19,23 @@ app.get('/get', (req, res) => {
 app.listen(port, () => {
     console.log(`API server is running on port ${port}`);
 });
+
+// API path ("/greys-wisdom-api") to get a character's quote
+app.get('/get', (req, res) => {
+    const characterName = req.query.character;
+
+    if (!characterName) {
+        res.status(400).json({ error: 'Character parameter is missing.' });
+        return;
+    }
+
+    const characterQuotes = quotes.filter(quote => quote.person === characterName);
+
+    if (characterQuotes.length === 0) {
+        res.status(404).json({ error: 'No quotes found for this character.' });
+        return;
+    }
+
+    const randomIndex = Math.floor(Math.random() * characterQuotes.length);
+    res.json({ quote: characterQuotes[randomIndex].quote });
+});
