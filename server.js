@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 // API path ("/greys-wisdom-api") to get a random quote
-app.get('/greys-wisdom-api', (req, res) => {
+app.get('/get', (req, res) => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     res.json({ quote: quotes[randomIndex].quote });
 });
